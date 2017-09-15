@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "author": "Coco",
 	"manifest_version": 2,
-	"description": "Easily handle page url parameters",
+	"description": "Easily handle page url parameters by a google extension",
 	"permissions": [
 		"http://*/",
 		"http://*/*",

@@ -1,5 +1,3 @@
-## google_extension_urlHandle
+# Url Helper
 
-Easily handle page url parameters.
-
-一款简易的 chrome 拓展程序，方便处理页面参数。
+Easily handle page url parameters by a google extension.
