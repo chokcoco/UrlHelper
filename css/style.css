@@ -1,0 +1,27 @@
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+
+body,
+html {
+    font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    background: linear-gradient(180deg, #fff, #ddd);
+}
+
+h2 {
+    font-family: Righteous;
+    width: 260px;
+    line-height: 36px;
+    color: #333;
+    font-size: 18px;
+    padding: 4px;
+    border-bottom: 1px dashed #333;
+}
+
+.g-container {
+    padding: 4px;
+    font-size: 14px;
+}
+
+h3 {
+    
+    font-size: 14px;
+}
