@@ -2,4 +2,4 @@
 
 Easily handle page url parameters by a google extension.
 
-谷歌拓展，url助手。
+一个谷歌拓展小插件，url助手。
