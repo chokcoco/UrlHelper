@@ -4,19 +4,48 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/bulma.min.css">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
-    <style>
-
-    </style>
 </head>
 
 <body>
-    <h2>Url Helper</h2>
     <div class="g-container">
-        <h3>参数列表</h3>
-        <ul class="g-list">
+        <nav class="level">
+            <div class="level-left">
+                <div class="level-item">
+                    <p class="subtitle is-5">
+                        <strong>Url Helper</strong>
+                    </p>
+                </div>
+                <div class="level-item">
+                    <div class="field has-addons">
+                        <p class="control">
+                            <input class="input" type="text" placeholder="Find a param">
+                        </p>
+                        <p class="control">
+                            <button class="button j-search">Search</button>
+                            
+                            
+                        </p>
+                    </div>
+                </div>
+            </div>
 
+            <div class="level-right">
+                <p class="level-item"><a class="button is-success j-decode">decode</a></p>
+                <p class="level-item"><a class="button is-success j-encode">encode</a></p>
+            </div>
+        </nav>
+        <div class="g-btn">
+
+        </div>
+
+        <ul class="g-list">
         </ul>
     </div>
+
+    <script src="./js/jquery-2.2.4.min.js"></script>
+    <script src="./js/popup.js"></script>
 </body>
+
 </html>

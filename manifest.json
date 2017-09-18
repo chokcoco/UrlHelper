@@ -1,35 +1,40 @@
 {
-	"name": "Url Helper",
+    "name": "Url Helper",
     "version": "1.0.0",
     "author": "Coco",
-	"manifest_version": 2,
-	"description": "Easily handle page url parameters by a google extension",
-	"permissions": [
-		"http://*/",
-		"http://*/*",
-		"https://*/",
-		"https://*/*"
-	],
-	"icons": {
-		"16": "icon-16-coco.png",
-		"128": "icon-128-coco.png"
-	},
-	"browser_action": {
-		"default_icon": "icon-16-coco.png",
-		"default_popup": "popup.html"
-	},
-	"content_scripts": [
-		{
-			"matches": [
-				"http://*/",
-				"https://*/",
-				"http://*/*",
-				"https://*/*"
-			],
-			"js": [
-				"js/jquery-1.10.1.min.js",
-				"js/url-handle.js"
-			]
-		}
-	]
+    "manifest_version": 2,
+    "description": "Easily handle page url parameters by a google extension",
+    "permissions": [
+        "http://*/",
+        "http://*/*",
+        "https://*/",
+        "https://*/*"
+    ],
+    "icons": {
+        "16": "icon-16-coco.png",
+        "128": "icon-128-coco.png"
+    },
+    "browser_action": {
+        "default_icon": "icon-16-coco.png",
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "http://*/",
+                "https://*/",
+                "http://*/*",
+                "https://*/*"
+            ],
+            "js": [
+                "js/jquery-2.2.4.min.js",
+                "js/url-handle.js"
+            ]
+        }
+    ]
 }

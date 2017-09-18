@@ -5,24 +5,7 @@
 	var result = parseURL(url);
 	var params = result.params;
 	
-	var dom = createTemplate(params);
-
-
-	function createTemplate(params) {
-		var dom = "";
-
-		for(key in params) {
-			dom += `
-					<li>
-						${key}：
-						<input type="text" value="${params[key]}">
-					</li>		
-					`
-		}
-
-		$container.append(dom);
-		console.log('dom', dom);
-	}
+	var dom = sendMsg(JSON.stringify(params));
 
 	function parseURL(url) {
 		var a =  document.createElement('a');
@@ -50,5 +33,22 @@
 			relative: (a.href.match(/tps?:\/[^/]+(.+)/) || [,''])[1],
 			segments: a.pathname.replace(/^\//,'').split('/')
 		};
+	}
+
+	// 脚本通信
+	function sendMsg(obj) {
+		console.log('sendMsg');
+		
+		chrome.runtime.sendMessage({
+			msg: obj,
+			result: 1
+		}, function(response) {
+			console.log('popup response');
+			console.log(response.farewell);
+
+			if(response && response.msg) {
+				console.log(response.msg);
+			}
+		});
 	}
 })
