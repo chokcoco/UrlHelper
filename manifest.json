@@ -11,11 +11,11 @@
         "https://*/*"
     ],
     "icons": {
-        "16": "icon-16-coco.png",
-        "128": "icon-128-coco.png"
+        "16": "icon-16.png",
+        "128": "icon-128.png"
     },
     "browser_action": {
-        "default_icon": "icon-16-coco.png",
+        "default_icon": "icon-16.png",
         "default_popup": "popup.html"
     },
     "background": {
