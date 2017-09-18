@@ -1,6 +1,6 @@
 {
     "name": "Url Helper",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "author": "Coco",
     "manifest_version": 2,
     "description": "Easily handle page url parameters by a google extension",
