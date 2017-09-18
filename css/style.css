@@ -34,3 +34,7 @@ html {
 .input.is-small, .textarea.is-small {
     font-weight: bold;
 }
+
+.g-list li {
+    margin-bottom: 5px;
+}
