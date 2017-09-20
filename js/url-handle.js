@@ -1,6 +1,5 @@
 //注入页面的脚本文件
 ;$(function() {
-	var $container = $('.g-list');
 	var url = window.location.href;
 	var result = parseURL(url);
 	var params = result.params;
@@ -43,8 +42,6 @@
 			msg: obj,
 			result: 1
 		}, function(response) {
-			console.log('popup response');
-			console.log(response.farewell);
 
 			if(response && response.msg) {
 				console.log(response.msg);
