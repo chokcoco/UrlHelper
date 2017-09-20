@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <title>URL Helper</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/bulma.min.css">
@@ -13,28 +14,19 @@
         <nav class="level">
             <div class="level-left">
                 <div class="level-item">
-                    <p class="subtitle is-5">
-                        <strong>Url Helper</strong>
-                    </p>
+                    <img class="g-logo" src="./images/icon-logo.png" alt="">
                 </div>
                 <div class="level-item">
                     <div class="field has-addons">
-                        <p class="control">
-                            <input class="input" type="text" placeholder="Find a param">
-                        </p>
-                        <p class="control">
-                            <button class="button j-search">Search</button>
-                            
-                            
+                        <p class="g-search control">
+                            <input class="input j-search" type="text" placeholder="Search">
                         </p>
                     </div>
                 </div>
             </div>
 
             <div class="level-right">
-                <p class="level-item"><a class="button is-success j-sort">sort</a></p>
-                <p class="level-item"><a class="button is-success j-decode">decode</a></p>
-                <p class="level-item"><a class="button is-success j-encode">encode</a></p>
+                <p class="level-item"><a class="button is-outlined j-sort">sort</a></p>
             </div>
         </nav>
 
@@ -42,6 +34,7 @@
     </div>
 
     <script src="./js/jquery-2.2.4.min.js"></script>
+    <script src="./js/clipboard.min.js"></script>
     <script src="./js/popup.js"></script>
 </body>
 

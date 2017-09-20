@@ -40,50 +40,19 @@ $(function () {
             return `<li>
                         <div class="field is-horizontal">
                             <div class="field-label ">
-                                <label class="label">${key}</label>
+                                <label class="label g-param-name">${key}</label>
                             </div>
                             <div class="field-body">
                                 <div class="field">
                                     <div class="control">
-                                        <input class="input is-small paramValue" type="text" placeholder="empty" value="${value}">
+                                        <input id="${key}" class="input is-small paramValue" type="text" placeholder="empty" value="${value}">
+                                        <a class="button is-outlined is-small j-copy" data-clipboard-action="copy" data-clipboard-target="#${key}">copy</a>
+                                        <a class="button is-outlined is-small j-decode" data-isDecode="0">解码</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </li>`;
-        }
-
-        /**
-         * 事件绑定
-         */
-        function evnetBind() {
-            $(document).on('click', '.j-decode', function(e) {
-                var params = $('.paramValue');
-                var length = params.length;
-
-                for(var i=0; i<length; i++) {
-                    var elem = params.eq(i);
-
-                    elem.val(decodeURIComponent(elem.val()));
-                }
-            });
-
-            $(document).on('click', '.j-encode', function(e) {
-                var params = $('.paramValue');
-                var length = params.length;
-
-                for(var i=0; i<length; i++) {
-                    var elem = params.eq(i);
-
-                    elem.val(encodeURIComponent(elem.val()));
-                }
-            });
-
-            $(document).on('click', '.j-sort', function(e) {     
-                var sortKey = sort(key);
-
-                createTpl(key, sortKey);
-            });
         }
 
         /**
@@ -104,10 +73,73 @@ $(function () {
             return keysSorted;
         }
 
+        /**
+         * 查找过滤
+         * @param {String} val 
+         */
+        function searchFilter(val) {
+            var $li = $('.g-list li');
+            
+            if(!val.length) {
+                $li.show();
+                return;
+            }
+
+            for(var i=0; i<$li.length; i++) {
+                var elem = $li.eq(i);
+                var isExist = elem.find('.label').text().indexOf(val) > -1 ? true : false;
+
+                if(!isExist) {
+                    elem.hide();
+                } else {
+                    elem.show();
+                }
+            }
+        }
+
+        /**
+         * 复制功能
+         */
+        function copy() {
+            var clipboard = new Clipboard('.j-copy');
+        }
+
+        /**
+         * 事件绑定
+         */
+        function evnetBind() {
+            $(document).on('click', '.j-decode', function(e) {
+                var params = $('.paramValue');
+                var length = params.length;
+                var elem = $(this).parent('.control').find('input');
+
+                if($(this).attr('data-isDecode') == '0') {
+                    elem.val(decodeURIComponent(elem.val()));
+                    $(this).attr('data-isDecode', 1).text('编码');
+                } else {
+                    elem.val(encodeURIComponent(elem.val()));
+                    $(this).attr('data-isDecode', 0).text('解码');
+                }
+            });
+
+
+            $(document).on('click', '.j-sort', function(e) {     
+                var sortKey = sort(key);
+
+                createTpl(key, sortKey);
+            });
+
+            $(document).on('input', '.j-search', function(e) {
+                var val = $(this).val();
+                console.log('val', val);
+                searchFilter(val);
+            });
+        }
         return {
             init: function() {
                 createTpl(key);
                 evnetBind();
+                copy();
             }
         }
     })();

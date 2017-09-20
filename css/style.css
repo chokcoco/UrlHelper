@@ -4,12 +4,13 @@ body,
 html {
     width: 769px;
     font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-    background: #fcde85;
+    background: #fff; 
 }
 
 .g-container {
     font-size: 14px;
-    padding-top: 45px;
+    padding-top: 52px;
+    overflow: hidden;
 }
 
 .level,
@@ -24,17 +25,74 @@ html {
 
 .level {
     position: fixed;
+    height: 48px;
     top: 0;
     left: 0;
     right: 0;
     z-index: 99;
-    background: #fcde85;
+    background: #fff; 
+    border-bottom: 1px dashed #aaa;
+}
+
+.level-right {
+    margin-right: 21px;
+}
+
+.g-logo {
+    height: 28px;
+    margin-left: 8px;
 }
 
 .input.is-small, .textarea.is-small {
     font-weight: bold;
 }
 
+.g-list {
+    max-height: 540px;
+    overflow-y: scroll;
+}
+
+html,
+body,
+.g-container,
+.g-list {
+    transition: height .3s;
+}
+
 .g-list li {
     margin-bottom: 5px;
+}
+
+.field-label .label {
+    width: 150px;
+    line-height: 27px;
+    overflow: hidden;
+}
+
+.g-search::after {
+    content: "";
+    position: absolute;
+    right: 8px;
+    top: 55%;
+    width: 14px;
+    height: 14px;
+    transform: translate(0, -50%);
+    background: url('../images/icon-search.png') no-repeat center center;
+    background-size: 14px 14px;
+    z-index: 9999;
+}
+
+.j-search {
+    width: 90px;
+    padding-right: 24px;
+    box-sizing: border-box;
+    transition: width .3s;
+}
+
+.j-search:focus {
+    width: 160px;
+}
+
+.paramValue {
+    width: 465px;
 }
