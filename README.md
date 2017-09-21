@@ -1,8 +1,8 @@
-# Url Helper
+![LOGO](https://github.com/chokcoco/UrlHelper/blob/master/images/icon-logo.png?raw=true)
+
+一款谷歌扩展 -- URL Helper。
 
 Easily handle page url parameters by a google extension.
-
-一个谷歌扩展小插件，url助手。
 
 ## Install
 
