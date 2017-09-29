@@ -16,7 +16,13 @@ Easily handle page url parameters by a google extension.
 
 ## Features
 
-能够快速查看多参数 URL 的参数信息，提供过滤查找、排序、编/解码、复制等功能。
+提供下列功能：
+
++ 快速查看各个参数信息，
++ 提供查找过滤
++ 参数排序、
++ 参数编/解码、
++ 参数复制
 
 ## How to Use
 
