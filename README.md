@@ -1,6 +1,6 @@
 ![LOGO](https://github.com/chokcoco/UrlHelper/blob/master/images/icon-logo.png?raw=true)
 
-URL Helper
+一款谷歌扩展。
 
 Easily handle page url parameters by a google extension.
 
