@@ -33,6 +33,8 @@ Easily handle page url parameters by a google extension.
 
 ![image](https://user-images.githubusercontent.com/8554143/30630201-10e58432-9e12-11e7-95f5-4f31199d6e3d.png)
 
+## google extension stroe
+
 ## License
 
 MIT
