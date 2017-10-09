@@ -12,7 +12,7 @@ Easily handle page url parameters by a google extension.
 
 3. 浏览至您的扩展程序文件所在的目录，并选定。
 
-> 整个扩展目录即是本项目所有文件
+> 整个扩展目录即是本项目所有文件。
 
 ## Features
 
