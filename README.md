@@ -35,6 +35,8 @@ Easily handle page url parameters by a google extension.
 
 ## google extension store
 
+近期上传到谷歌扩展商店。
+
 ## License
 
 MIT
