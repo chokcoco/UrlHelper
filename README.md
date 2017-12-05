@@ -2,9 +2,13 @@
 
 一款谷歌扩展小插件，用于方便处理观察多参数页面。
 
-Easily handle page url parameters by a google extension.
+Best way to handle page multiple url parameters .
 
 ## Install
+
+谷歌扩展商店，搜索 **URLHelper** 即可。
+
+#### 无法访问谷歌商店，可以直接在 chrome 浏览器安装安装包
 
 1. 在 chrome 浏览器中访问 chrome://extensions（或者单击多功能框最右边的按钮：打开 Chrome 浏览器菜单，并选择更多工具 (L) 菜单下的扩展程序 (E)，进入相同的页面）。
 

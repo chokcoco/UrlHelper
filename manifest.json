@@ -1,9 +1,9 @@
 {
     "name": "Url Helper",
-    "version": "1.3.0",
+    "version": "1.4.0",
     "author": "Coco",
     "manifest_version": 2,
-    "description": "Easily handle page url parameters by a google extension",
+    "description": "Best way to handle page multiple url parameters.",
     "permissions": ["http://*/", "http://*/*", "https://*/", "https://*/*"],
     "icons": {
         "16": "icon-16.png",
