@@ -8,14 +8,24 @@
  */
 
 body {
-    font-family: tahoma, Arial, Roboto, 'Droid Sans', 'Helvetica Neue', 'Droid Sans Fallback', 'Hiragino Sans GB', 'Heiti SC', sans-self;
+    font-family: tahoma, Arial, Roboto, "Droid Sans", "Helvetica Neue", "Droid Sans Fallback", "Hiragino Sans GB", "Heiti SC", sans-self;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
 }
-body, dl, dd, h1, h2, h3, h4, h5, h6, p {
+body,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     margin: 0;
 }
-ol, ul {
+ol,
+ul {
     margin: 0;
     padding: 0;
 }
@@ -26,7 +36,11 @@ a {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     text-decoration: none;
 }
-a:hover, a:active, input, button, textarea {
+a:hover,
+a:active,
+input,
+button,
+textarea {
     outline: 0;
 }
 img {
