@@ -1,8 +1,8 @@
-# Url Helper
+![LOGO](https://github.com/chokcoco/UrlHelper/blob/master/images/icon-logo.png?raw=true)
+
+一款谷歌扩展小插件，用于方便处理观察多参数 URL。
 
 Easily handle page url parameters by a google extension.
-
-一个谷歌扩展小插件，url助手。
 
 ## Install
 
@@ -12,11 +12,17 @@ Easily handle page url parameters by a google extension.
 
 3. 浏览至您的扩展程序文件所在的目录，并选定。
 
-> 整个扩展目录即是本项目所有文件
+> 整个扩展目录即是本项目所有文件。
 
 ## Features
 
-能够快速查看多参数 URL 的参数信息，提供过滤查找、排序、编/解码、复制等功能。
+提供下列功能：
+
++ 快速查看各个参数信息
++ 提供查找过滤
++ 参数排序
++ 参数编/解码
++ 参数复制
 
 ## How to Use
 
@@ -26,6 +32,10 @@ Easily handle page url parameters by a google extension.
 使用前刷新页面，然后点击扩展程序图标：
 
 ![image](https://user-images.githubusercontent.com/8554143/30630201-10e58432-9e12-11e7-95f5-4f31199d6e3d.png)
+
+## google extension store
+
+近期上传到谷歌扩展商店。
 
 ## License
 
