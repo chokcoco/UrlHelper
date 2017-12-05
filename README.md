@@ -33,11 +33,7 @@ Easily handle page url parameters by a google extension.
 
 使用前刷新页面，然后点击扩展程序图标：
 
-![image](https://user-images.githubusercontent.com/8554143/30630201-10e58432-9e12-11e7-95f5-4f31199d6e3d.png)
-
-## google extension store
-
-近期上传到谷歌扩展商店。
+![image](https://user-images.githubusercontent.com/8554143/33594116-9749bc86-d9cd-11e7-93e2-b2770187bab9.png)
 
 ## License
 
