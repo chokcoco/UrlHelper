@@ -8,6 +8,9 @@ Best way to handle page multiple url parameters .
 
 谷歌扩展商店，搜索 **URLHelper** 即可。
 
+![](https://user-images.githubusercontent.com/8554143/33596367-6a8f2f1a-d9d6-11e7-9ee2-f05a21faaac9.png)
+---
+
 #### 无法访问谷歌商店，可以直接在 chrome 浏览器安装安装包
 
 1. 在 chrome 浏览器中访问 chrome://extensions（或者单击多功能框最右边的按钮：打开 Chrome 浏览器菜单，并选择更多工具 (L) 菜单下的扩展程序 (E)，进入相同的页面）。
