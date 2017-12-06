@@ -8,6 +8,10 @@ Best way to handle page multiple url parameters .
 
 谷歌扩展商店，搜索 **URLHelper** 即可。
 
+<<<<<<< HEAD
+=======
+![](https://user-images.githubusercontent.com/8554143/33596367-6a8f2f1a-d9d6-11e7-9ee2-f05a21faaac9.png)
+>>>>>>> 9f780d37d5c565864beee8d9db5be37d6c0e2fca
 ---
 
 #### 无法访问谷歌商店，可以直接在 chrome 浏览器安装安装包
