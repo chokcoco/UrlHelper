@@ -1,12 +1,14 @@
 ![LOGO](https://github.com/chokcoco/UrlHelper/blob/master/images/icon-logo.png?raw=true)
 
-一款谷歌扩展小插件，用于方便处理观察多参数页面。
+一款谷歌扩展插件，用于方便处理多参数页面。
 
 Best way to handle page multiple url parameters .
 
 ## Install
 
 谷歌扩展商店，搜索 **URLHelper** 即可。
+
+---
 
 #### 无法访问谷歌商店，可以直接在 chrome 浏览器安装安装包
 
