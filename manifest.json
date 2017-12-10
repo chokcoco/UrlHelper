@@ -20,7 +20,7 @@
     },
     "background": {
         "scripts": [
-            "background.js"
+            "js/background.js"
         ]
     },
     "content_scripts": [
