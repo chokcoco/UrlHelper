@@ -6,7 +6,7 @@ Best way to handle page multiple url parameters .
 
 ## Install
 
-Chrome 网上应用商店，搜索 **URLHelper** 即可。
+Chrome 网上应用商店，搜索 **URLHelper** 安装即可。
 
 ![](https://user-images.githubusercontent.com/8554143/33596367-6a8f2f1a-d9d6-11e7-9ee2-f05a21faaac9.png)
 
