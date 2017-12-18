@@ -41,6 +41,10 @@ Chrome 网上应用商店，搜索 **URLHelper** 安装即可。
 
 ![image](https://user-images.githubusercontent.com/8554143/33594116-9749bc86-d9cd-11e7-93e2-b2770187bab9.png)
 
+## Contact
+
+如果有任何问题，或者希望添加功能，欢迎开 ISSUE 留言。
+
 ## License
 
 MIT
