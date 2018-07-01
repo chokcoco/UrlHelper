@@ -45,6 +45,4 @@ Chrome 网上应用商店，搜索 **URLHelper** 安装即可。
 
 如果有任何问题，或者希望添加功能，欢迎开 ISSUE 留言。
 
-## License
 
-MIT
