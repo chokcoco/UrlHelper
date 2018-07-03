@@ -1,6 +1,6 @@
 ![LOGO](https://github.com/chokcoco/UrlHelper/blob/master/images/icon-logo.png?raw=true)
 
-一款谷歌扩展插件，用于方便处理多参数页面。
+一款谷歌扩展插件，用于方便查看处理多参数页面。
 
 Best way to handle page multiple url parameters .
 
