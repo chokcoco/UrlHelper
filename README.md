@@ -2,8 +2,6 @@
 
 一款谷歌扩展插件，用于方便查看处理多参数页面。
 
-Best way to handle page multiple url parameters .
-
 ## Install
 
 Chrome 网上应用商店，搜索 [**URLHelper**](https://chrome.google.com/webstore/search/urlhelper?hl=zh-CN) 安装即可。
