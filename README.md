@@ -35,7 +35,7 @@ Chrome 网上应用商店，搜索 [**URLHelper**](https://chrome.google.com/web
 假设页面 URL：
 `https://github.com/chokcoco/UrlHelper/issues/new?proj=pay_v3&page=pay&tvid=074232E000E081E142ED066B56B88FB6&bid=31001&appid=101161688&tvskey=&cid=&vid=&pid=&mid=&type=0&openid=&access_token=&Q-UA=QV%3D1%26PR%3DVIDEO%26PT%3DTVMORE%26CHID%3D10009%26RL%3D1920%2A1080%26VN%3D2.6.0%26VN_CODE%3D1604%26SV%3D5.1.1%26DV%3DJurassicPark%26VN_BUILD%3D1007%26MD%3DMiBOX3%26BD%3DJurassicPark%26TVKPlatform%3D2280603&from=200&ftime=1478764649186&ott_flag=1&platform=&vipbid=90&source1=705&source2=701&listid=&matchid=&channelid=pay&main_login=&kt_main_login=&vuserid=&vusession=&oauth_consumer_key=101161688&kt_userid=&kt_license_account=SNM_0016378515&kt_boss_channel=tx_tvmore&kt_login_support=qq%2Cwx%2Cph&pkglist=1+2+3&kt_login=&_=1505114974362#`
 
-使用前刷新页面，然后点击扩展程序图标：
+使用前需要刷新当前要查看的参数的页面，然后点击扩展程序图标：
 
 ![image](https://user-images.githubusercontent.com/8554143/33594116-9749bc86-d9cd-11e7-93e2-b2770187bab9.png)
 
