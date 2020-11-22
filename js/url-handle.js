@@ -92,7 +92,7 @@ $(function() {
             console.log(sender.tab ? "来自内容脚本：" + sender.tab.url : "来自扩展程序");
 
             if (request && !request.result) {
-				console.log(result.msg);
+		console.log(result.msg);
                 receiveSet(request);
             }
         });
